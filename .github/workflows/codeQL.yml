@@ -6,7 +6,7 @@ on:
 
 jobs:
   CodeQL-Build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest,python
 
     permissions:
       # required for all workflows
